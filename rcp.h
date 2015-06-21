@@ -33,6 +33,6 @@ typedef unsigned int    u32; /* native ABI to MIPS */
 
 static u8 DMEM[(MAX_SPMEM_ADDR + 1UL) >> 1];
 static u8 IMEM[(MAX_SPMEM_ADDR + 1UL) >> 1];
-/* extern u8 DRAM[MAX_RDRAM_ADDR + 1UL]; */
+extern u8 * DRAM;
 
 #endif
